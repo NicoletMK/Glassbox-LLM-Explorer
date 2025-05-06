@@ -1,0 +1,31 @@
+/* src/components/AttentionViz.css */
+.attention-viz {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .attention-viz h3 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .heatmap-container {
+    min-width: 600px; /* Ensures heatmap doesn't get too cramped */
+  }
+  
+  .heatmap-cell {
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #eee;
+  }
+  
+  .heatmap-labels {
+    font-family: monospace;
+    font-size: 12px;
+    padding: 4px;
+  }

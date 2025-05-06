@@ -1,0 +1,63 @@
+.token-probs {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .token-probs h3 {
+    margin: 0 0 1rem 0;
+    color: #1e293b;
+    font-size: 1.1rem;
+  }
+  
+  .prob-bars-container {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .prob-bar {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  
+  .token-text {
+    flex: 0 0 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem;
+    color: #334155;
+    word-break: break-all;
+  }
+  
+  .bar-container {
+    flex: 1;
+    margin: 0 1rem;
+    height: 20px;
+    background: #f8fafc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .probability-bar {
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  .probability-value {
+    flex: 0 0 50px;
+    text-align: right;
+    font-size: 0.8rem;
+    color: #64748b;
+  }
+  
+  .token-probs-error {
+    padding: 1rem;
+    background: #fee2e2;
+    color: #b91c1c;
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
